@@ -1,0 +1,7 @@
+Install tensorflow using pip
+https://www.tensorflow.org/versions/master/get_started/os_setup.html#pip-installation
+
+sudo apt update
+sudo apt install python-pip python-dev
+sudo pip install numpy
+sudo pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
