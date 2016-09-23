@@ -4,11 +4,11 @@ mnist = input_data.read_data_sets("../MNIST_data/", one_hot=True)
 import tensorflow as tf
 x = tf.placeholder(tf.float32, [None, 784])
 
-w2 = tf.Variable(tf.truncated_normal([784, 100]))
+w2 = tf.Variable(tf.truncated_normal([784, 100], stddev=0.1))
 b2 = tf.Variable(tf.zeros([100]))
-y2 = tf.nn.sigmoid(tf.matmul(x, w2) + b2)
+y2 = tf.nn.relu(tf.matmul(x, w2) + b2)
 
-w = tf.Variable(tf.truncated_normal([100, 10]))
+w = tf.Variable(tf.truncated_normal([100, 10], stddev=0.1))
 b = tf.Variable(tf.zeros([10]))
 y = tf.nn.softmax(tf.matmul(y2, w) + b)
 
