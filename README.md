@@ -17,5 +17,6 @@ https://docs.google.com/presentation/d/1TVixw6ItiZ8igjp6U17tcgoFrLSaHwQmMOwjlgQY
 
 MNISTboard.py   
 TensorBoard Demo    
+https://www.tensorflow.org/versions/master/how_tos/summaries_and_tensorboard/index.html     
 tensorboard --logdir=/tmp/mnist_logs    
 localhost:6006  
