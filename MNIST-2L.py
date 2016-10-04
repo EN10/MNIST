@@ -3,7 +3,7 @@ mnist = input_data.read_data_sets("../MNIST_data/", one_hot=True)
 
 import tensorflow as tf
 x = tf.placeholder(tf.float32, [None, 784])
-N = 100
+N = 150
 w2 = tf.Variable(tf.truncated_normal([784, N], stddev=0.1))
 b2 = tf.Variable(tf.zeros([N]))
 y2 = tf.nn.relu(tf.matmul(x, w2) + b2)
