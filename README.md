@@ -19,3 +19,4 @@ MNISTboard.py
 TensorBoard Demo    
 https://www.tensorflow.org/versions/master/how_tos/summaries_and_tensorboard/index.html     
 tensorboard --logdir=/tmp/mnist_logs --port 8080    
+tensorboard defaut port 6006 may not be open 
