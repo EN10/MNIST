@@ -1,4 +1,6 @@
 # http://tflearn.org/installation/#tflearn-installation
+# pip install tflearn
+
 import tflearn
 
 data, labels, test_data, test_labels = tflearn.datasets.mnist.load_data(one_hot=True)
