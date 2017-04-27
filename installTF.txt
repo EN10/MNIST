@@ -3,5 +3,4 @@ https://www.tensorflow.org/install/install_linux#determine_how_to_install_tensor
 
 sudo apt update
 sudo apt install python-pip
-sudo pip install numpy
 sudo pip install tensorflow
