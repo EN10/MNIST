@@ -24,3 +24,6 @@ TensorBoard Demo
 https://www.tensorflow.org/versions/master/how_tos/summaries_and_tensorboard/index.html     
 tensorboard --logdir=/tmp/mnist_logs --port 8080    
 tensorboard defaut port 6006 may not be open 
+
+Predict from Canvas see In [8]:   
+https://github.com/dmlc/mxnet-notebooks/blob/master/python/tutorials/mnist.ipynb
