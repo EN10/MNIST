@@ -4,7 +4,7 @@ MNISTsoftmax.py
 MNIST For ML Beginners  
 https://www.tensorflow.org/get_started/mnist/beginners
 
-MNISTply.py on ipynb, view image data.  
+MNISTply.py on ipynb, view image data. See install installJupyter.txt   
 Original:   
 https://github.com/random-forests/tutorials/blob/master/ep7.ipynb   
 https://www.youtube.com/watch?v=Gj0iyo265bc     
