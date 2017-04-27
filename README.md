@@ -1,7 +1,8 @@
 see installTF.txt   
 
-MNISTsoftmax.py        
-https://www.tensorflow.org/versions/master/tutorials/mnist/beginners/index.html#mnist-for-ml-beginners
+MNISTsoftmax.py     
+MNIST For ML Beginners  
+https://www.tensorflow.org/get_started/mnist/beginners
 
 MNISTply.py     
 https://github.com/random-forests/tutorials/blob/master/ep7.ipynb   
