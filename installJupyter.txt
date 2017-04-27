@@ -1,3 +1,5 @@
+install for c9 / cs50.io
+
 sudo apt update
 sudo apt -y install python2.7 python-pip python-dev
 sudo apt -y install ipython ipython-notebook
