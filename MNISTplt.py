@@ -2,11 +2,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("./MNIST_data/", one_hot=True)
 
 import matplotlib.pyplot as plt
-import matplotlib.cm as cm
 %matplotlib inline
 
 def display(i):
-    plt.imshow(mnist.train.images[i].reshape((28,28)), cmap = cm.Greys)
+    plt.imshow(mnist.train.images[i].reshape((28,28)), cmap = 'gray_r')
     plt.title(mnist.train.labels[i])
     plt.show()
     
