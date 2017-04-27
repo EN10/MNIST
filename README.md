@@ -4,9 +4,12 @@ MNISTsoftmax.py
 MNIST For ML Beginners  
 https://www.tensorflow.org/get_started/mnist/beginners
 
-MNISTply.py     
+MNISTply.py on ipynb, view image data.  
+Original:   
 https://github.com/random-forests/tutorials/blob/master/ep7.ipynb   
-https://www.youtube.com/watch?v=Gj0iyo265bc 
+https://www.youtube.com/watch?v=Gj0iyo265bc     
+Updated:    
+http://tneal.org/post/tensorflow-ipython/TensorFlowMNIST/    
 
 MNISTexpert.py  
 https://www.tensorflow.org/versions/master/tutorials/mnist/pros/index.html#deep-mnist-for-experts
