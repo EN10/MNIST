@@ -28,3 +28,6 @@ tensorboard defaut port 6006 may not be open
 
 Predict from Canvas see In [8]:   
 https://github.com/dmlc/mxnet-notebooks/blob/master/python/tutorials/mnist.ipynb
+
+MNIST for Handwriting Prediction:   
+https://github.com/niektemme/tensorflow-mnist-predict 
