@@ -17,7 +17,7 @@ http://tneal.org/post/tensorflow-ipython/TensorFlowMNIST/
 http://stackoverflow.com/questions/36651704/which-cmap-colormap-to-use-with-matplotlib-imshow-to-diplay-the-mnist-datase    
 
 MNISTexpert.py  
-https://www.tensorflow.org/versions/master/tutorials/mnist/pros/index.html#deep-mnist-for-experts
+https://www.tensorflow.org/get_started/mnist/pros  
 
 MNIST-2L.py    ReLu, Random W 
 2 Layer Feed-Forward Neural Network     
