@@ -1,3 +1,7 @@
+# MNIST
+
+### Tensorflow examples using MNIST.  
+
 see installTF.txt   
 
 MNISTsoftmax.py     
