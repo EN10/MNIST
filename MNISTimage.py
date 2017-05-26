@@ -17,6 +17,9 @@ with tf.name_scope("accuracy"):
   accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 tf.summary.scalar("accuracy", accuracy)
 
+image = tf.reshape(x[:1], [-1, 28, 28, 1])
+tf.summary.image("image", image)
+
 sess = tf.InteractiveSession()
 merged = tf.summary.merge_all()
 writer = tf.summary.FileWriter("/tmp/mnist_logs",  sess.graph)
