@@ -2,7 +2,7 @@
 
 ## Tensorflow examples using MNIST.  
 
-**How to Install TensorFlow using pip**
+**How to Install TensorFlow using pip**  
 https://www.tensorflow.org/install/install_linux#determine_how_to_install_tensorflow
 
 Tested on cs50.io
@@ -13,12 +13,13 @@ Tested on cs50.io
 disable "cpu_feature_guard":  
 `export TF_CPP_MIN_LOG_LEVEL=2`
 
-**MNIST For ML Beginners**  [MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftmax.py) [MNISTboard.py ](https://github.com/EN10/MNIST/blob/master/MNISTboard.py) from https://www.tensorflow.org/get_started/mnist/beginners
+**MNIST For ML Beginners**  
+[MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftmax.py) [MNISTboard.py ](https://github.com/EN10/MNIST/blob/master/MNISTboard.py) from https://www.tensorflow.org/get_started/mnist/beginners
 
 Report Accuracy [MNISTprint.py](https://github.com/EN10/MNIST/blob/master/MNISTprint.py) 
 
-**TensorBoard Demo** [MNISTboard.py](https://github.com/EN10/MNIST/blob/master/MNISTboard.py)  
-TensorBoard Image [MNISTimage.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
+**TensorBoard Demo**  
+[MNISTboard.py](https://github.com/EN10/MNIST/blob/master/MNISTboard.py) TensorBoard Image [MNISTimage.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
 https://www.tensorflow.org/get_started/summaries_and_tensorboard  
 needs to run in python before tensorboard  
 `python MNISTboard.py`  
