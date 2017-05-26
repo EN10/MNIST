@@ -2,7 +2,7 @@
 
 ### Tensorflow examples using MNIST.  
 
-[installTF.txt](https://github.com/EN10/MNIST/blob/master/installTF.txt)   
+[installTF.md](https://github.com/EN10/MNIST/blob/master/installTF.md)   
 
 MNIST For ML Beginners  [MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftmax.py) [MNISTboard.py ](https://github.com/EN10/MNIST/blob/master/MNISTboard.py) from https://www.tensorflow.org/get_started/mnist/beginners
 
