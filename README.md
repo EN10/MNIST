@@ -2,7 +2,7 @@
 
 ## Tensorflow examples using MNIST.  
 
-** How to Install TensorFlow using pip **
+**How to Install TensorFlow using pip**
 https://www.tensorflow.org/install/install_linux#determine_how_to_install_tensorflow
 
 Tested on cs50.io
