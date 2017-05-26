@@ -14,10 +14,12 @@ Updated:
 http://tneal.org/post/tensorflow-ipython/TensorFlowMNIST/    
 http://stackoverflow.com/questions/36651704/which-cmap-colormap-to-use-with-matplotlib-imshow-to-diplay-the-mnist-datase    
 
-[MNISTprint.py](https://github.com/EN10/MNIST/blob/master/MNISTprint.py) 
+Report Accuracy [MNISTprint.py](https://github.com/EN10/MNIST/blob/master/MNISTprint.py) 
 
 TensorBoard Demo [MNISTboard.py](https://github.com/EN10/MNIST/blob/master/MNISTboard.py)     
-https://www.tensorflow.org/get_started/summaries_and_tensorboard     
+https://www.tensorflow.org/get_started/summaries_and_tensorboard  
+needs to run in python before tensorboard  
+python MNISTboard.py  
 tensorboard --logdir=/tmp/mnist_logs --port 8080    
 tensorboard defaut port 6006 may not be open 
 
