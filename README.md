@@ -14,7 +14,7 @@ disable "cpu_feature_guard":
 `export TF_CPP_MIN_LOG_LEVEL=2`
 
 **MNIST For ML Beginners**  
-[MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftmax.py) [MNISTboard.py ](https://github.com/EN10/MNIST/blob/master/MNISTboard.py) from https://www.tensorflow.org/get_started/mnist/beginners
+[MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftmax.py) from https://www.tensorflow.org/get_started/mnist/beginners
 
 Report Accuracy [MNISTprint.py](https://github.com/EN10/MNIST/blob/master/MNISTprint.py) 
 
