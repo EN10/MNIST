@@ -26,6 +26,10 @@ needs to run in python before tensorboard
 `tensorboard --logdir=/tmp/mnist_logs --port 8080`  
 tensorboard defaut port 6006 may not be open  
 
+**predict.py**  
+based on MNISTsoftmax.py runs predictions on image  
+requires : `sudo pip install --upgrade scipy`
+
 [MNISTexpert.py](https://github.com/EN10/MNIST/blob/master/MNISTexpert.py) from https://www.tensorflow.org/get_started/mnist/pros  
 
 [MNIST-2L.py](https://github.com/EN10/MNIST/blob/master/MNIST-2L.py)    ReLu, Random W 
