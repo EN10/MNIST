@@ -35,6 +35,8 @@ trained on `mnist.train.images[0]` vs image `imread('test3.png',mode='L')`
 
 [MNISTexpert.py](https://github.com/EN10/MNIST/blob/master/MNISTexpert.py) from https://www.tensorflow.org/get_started/mnist/pros  
 
+#### Older Examples
+
 [MNIST-2L.py](https://github.com/EN10/MNIST/blob/master/MNIST-2L.py)    ReLu, Random W 
 2 Layer Feed-Forward Neural Network     
 http://stackoverflow.com/questions/38136961/how-to-create-2-layers-neural-network-using-tensorflow-and-python-on-mnist-data  
