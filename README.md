@@ -27,7 +27,7 @@ needs to run in python before tensorboard
 tensorboard defaut port 6006 may not be open  
 
 **Predict from Image**  
-[predict.py](https://github.com/EN10/MNIST/blob/master/predict.py)
+[MNISTpredict.py](https://github.com/EN10/MNIST/blob/master/MNISTpredict.py)
 requires :  
 `sudo pip install --upgrade scipy`  
 `sudo pip install pillow`  
@@ -35,16 +35,16 @@ based on [MNISTsoftmax.py](https://github.com/EN10/MNIST/blob/master/MNISTsoftma
 L25 based on [cnnPredict.py](https://github.com/EN10/KerasMNIST/blob/master/cnnPredict.py) L3-11  
 trained on `mnist.train.images[0]` vs image `imread('test3.png',mode='L')`  
 
-[MNISTexpert.py](https://github.com/EN10/MNIST/blob/master/MNISTexpert.py) from https://www.tensorflow.org/get_started/mnist/pros  
+[MNISTexpert.py](https://github.com/EN10/MNIST/blob/master/MoreExamples/MNISTexpert.py) from https://www.tensorflow.org/get_started/mnist/pros  
 
 #### Older Examples
 
-[MNIST-2L.py](https://github.com/EN10/MNIST/blob/master/MNIST-2L.py)    ReLu, Random W 
+[MNIST-2L.py](https://github.com/EN10/MNIST/blob/master/MoreExamples/MNIST-2L.py)    ReLu, Random W 
 2 Layer Feed-Forward Neural Network     
 http://stackoverflow.com/questions/38136961/how-to-create-2-layers-neural-network-using-tensorflow-and-python-on-mnist-data  
 https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd  
 
-[MNISTply.py](https://github.com/EN10/MNIST/blob/master/MNISTplt.py) on ipynb, view image data. See [installJupyter.txt](https://github.com/EN10/MNIST/blob/master/installJupyter.txt)   
+[MNISTply.py](https://github.com/EN10/MNIST/blob/master/MoreExamples/MNISTplt.py) on ipynb, view image data. See [installJupyter.txt](https://github.com/EN10/MNIST/blob/master/installJupyter.txt)   
 Original:   
 https://github.com/random-forests/tutorials/blob/master/ep7.ipynb   
 https://www.youtube.com/watch?v=Gj0iyo265bc     
