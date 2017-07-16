@@ -19,7 +19,7 @@ disable "cpu_feature_guard":
 Report Accuracy [print.py](https://github.com/EN10/MNIST/blob/master/print.py) 
 
 **TensorBoard Demo**  
-[board.py](https://github.com/EN10/MNIST/blob/master/board.py) TensorBoard Image [MNISTimage.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
+[board.py](https://github.com/EN10/MNIST/blob/master/board.py) TensorBoard Image [image.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
 https://www.tensorflow.org/get_started/summaries_and_tensorboard  
 needs to run in python before tensorboard  
 `python board.py`  
