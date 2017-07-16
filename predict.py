@@ -22,5 +22,5 @@ for _ in range(1000):
   batch_xs, batch_ys = mnist.train.next_batch(100)
   sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 
-i =  np.invert(imread('test3.png',mode='L')).reshape(784).astype('float32') / 255
+i =  np.invert(imread('number.png',mode='L')).reshape(784).astype('float32') / 255
 print y.eval({x: [i]}).argmax()
