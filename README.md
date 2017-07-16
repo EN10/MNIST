@@ -16,13 +16,13 @@ disable "cpu_feature_guard":
 **MNIST For ML Beginners**  
 [softmax.py](https://github.com/EN10/MNIST/blob/master/softmax.py) from https://www.tensorflow.org/get_started/mnist/beginners
 
-Report Accuracy [MNISTprint.py](https://github.com/EN10/MNIST/blob/master/print.py) 
+Report Accuracy [print.py](https://github.com/EN10/MNIST/blob/master/print.py) 
 
 **TensorBoard Demo**  
 [board.py](https://github.com/EN10/MNIST/blob/master/board.py) TensorBoard Image [MNISTimage.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
 https://www.tensorflow.org/get_started/summaries_and_tensorboard  
 needs to run in python before tensorboard  
-`python MNISTboard.py`  
+`python board.py`  
 `tensorboard --logdir=/tmp/mnist_logs --port 8080`  
 tensorboard defaut port 6006 may not be open  
 
