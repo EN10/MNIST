@@ -3,28 +3,23 @@
 ## Tensorflow examples using MNIST.  
 
 **How to Install TensorFlow using pip**  
-https://www.tensorflow.org/install/install_linux#determine_how_to_install_tensorflow
-
-Tested on cs50.io
-
-    sudo pip install -U pip 
-    sudo pip install tensorflow
-
-disable "cpu_feature_guard":  
-`export TF_CPP_MIN_LOG_LEVEL=2`
+https://www.tensorflow.org/install/install_linux#determine_how_to_install_tensorflow  
+Tested on cs50.io:  
+`sudo pip install -U pip`  
+`sudo pip install tensorflow`
 
 **MNIST For ML Beginners**  
-[softmax.py](https://github.com/EN10/MNIST/blob/master/softmax.py) from https://www.tensorflow.org/get_started/mnist/beginners
-
+[softmax.py](https://github.com/EN10/MNIST/blob/master/softmax.py) from https://www.tensorflow.org/get_started/mnist/beginners  
 Report Accuracy [print.py](https://github.com/EN10/MNIST/blob/master/print.py) 
 
 **TensorBoard Demo**  
-[board.py](https://github.com/EN10/MNIST/blob/master/board.py) TensorBoard Image [image.py](https://github.com/EN10/MNIST/blob/master/MNISTimage.py)  
+[board.py](https://github.com/EN10/MNIST/blob/master/board.py) TensorBoard Image [image.py](https://github.com/EN10/MNIST/blob/master/image.py)  
 https://www.tensorflow.org/get_started/summaries_and_tensorboard  
 needs to run in python before tensorboard  
 `python board.py`  
 `tensorboard --logdir=/tmp/mnist_logs --port 8080`  
 tensorboard defaut port 6006 may not be open  
+e.g. https://cicai-eniof.cs50.io
 
 **Predict from Image**  
 [predict.py](https://github.com/EN10/MNIST/blob/master/predict.py)
@@ -36,6 +31,10 @@ L25 based on [cnnPredict.py](https://github.com/EN10/KerasMNIST/blob/master/cnnP
 trained on `mnist.train.images[0]` vs image `imread('test3.png',mode='L')`  
 
 [expert.py](https://github.com/EN10/MNIST/blob/master/MoreExamples/expert.py) from https://www.tensorflow.org/get_started/mnist/pros  
+
+**Remove Tensorflow Warning**  
+disable "cpu_feature_guard":  
+`export TF_CPP_MIN_LOG_LEVEL=2`
 
 #### Older Examples
 
