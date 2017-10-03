@@ -5,5 +5,5 @@ x = mnist.train.images      # (55000, 784)
 x = x[1]                    # (784,)
 x = x.reshape([28, 28])     # (28, 28)
 
-import scipy.misc
-scipy.misc.imsave('digit.jpg', x)
+from scipy.misc import imsave
+imsave('digit.jpg', x)
